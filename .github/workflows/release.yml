@@ -16,8 +16,8 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - { target: stm32mp25-dk, distro-release: "2026", distro-channel: edge }
-          - { target: stm32mp25-dk, distro-release: "2024", distro-channel: edge-next }
+          - { target: stm32mp25-dk, distro-release: "2026", distro-channel: next }
+          - { target: stm32mp25-dk, distro-release: "2024", distro-channel: next }
     uses: avocado-linux/actions/.github/workflows/extension-release.yml@v1
     with:
       target:         ${{ matrix.target }}
