@@ -9,7 +9,7 @@ extensions:
     summary: Board support for the STM32MP25 Discovery Kit (STM32MP257F-DK)
     description: Board support for the STM32MP25 Discovery Kit (STM32MP257F-DK)
     license: Apache-2.0
-    url: https://github.com/avocadolinux/avocado-os
+    url: https://github.com/avocado-linux/bsp-stm32mp25-dk
     vendor: Avocado Linux <info@avocadolinux.org>
 
     types:
